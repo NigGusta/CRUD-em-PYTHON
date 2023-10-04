@@ -21,7 +21,9 @@ host = "localhost"
 user = "root"
 password = ""
 database = "bdi"
-Execute o arquivo main.py para iniciar o sistema de gerenciamento de vacinas.
+Execute o arquivo main.py para iniciar o sistema de gerenciamento de vacinas após baixar o bdi.
+
+
 Funcionalidades
 Criar registro de vacina: Adicione informações sobre uma nova vacina, incluindo nome, fabricante, lote, tempo de imunidade, estoque e data de validade.
 
@@ -41,12 +43,9 @@ Calcular a quantidade total de estoque de vacinas: Obtenha a quantidade total de
 
 Encontrar as vacinas com data de vencimento em 30 dias: Localize vacinas com data de vencimento nos próximos 30 dias.
 
-Contribuição
-Sinta-se à vontade para contribuir para este projeto! Você pode criar problemas, propor melhorias ou enviar solicitações de pull.
 
 Nota: Certifique-se de que as informações de conexão ao banco de dados, como senha, sejam tratadas com segurança e não incluídas em repositórios públicos. Considere o uso de variáveis de ambiente ou arquivos de configuração separados para armazenar essas informações com segurança.
 
-Make sure to replace the `![Demo](demo.gif)` placeholder with a link to a GIF or image that showcases your application in action if you have one. You can also add more details about your project, including installation instructions, usage examples, and additional functionalities as needed.
 
 
 

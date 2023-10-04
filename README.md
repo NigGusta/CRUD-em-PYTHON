@@ -1,53 +1,52 @@
-# Sistema de Gerenciamento de Vacinas
+# Sistema de Gerenciamento de Vacinas 🦠💉
 
 Este é um sistema simples de gerenciamento de vacinas, desenvolvido em Python, que permite criar, atualizar, excluir e consultar informações sobre vacinas em um banco de dados MySQL. Além disso, oferece funcionalidades adicionais, como busca por nome, fabricante, visualização de todo o estoque, identificação de lotes próximos ao vencimento e contagem total de estoque de vacinas.
 
-## Requisitos
+## Requisitos 📋
 
-- Python 3.x
-- MySQL Server
-- Biblioteca `mysql-connector-python`
+- Python 3.x 🐍
+- MySQL Server 🗄️
+- Biblioteca `mysql-connector-python` 📚
 
-## Configuração
+## Configuração ⚙️
 
 1. Instale a biblioteca `mysql-connector-python` executando o seguinte comando:
 
 ```shell
 pip install mysql-connector-python
-Configure as informações de conexão ao banco de dados no arquivo main.py. Você pode modificar as seguintes linhas para corresponder às suas configurações:
-python
-Copy code
+```
+
+2. Configure as informações de conexão ao banco de dados no arquivo `main.py`. Você pode modificar as seguintes linhas para corresponder às suas configurações:
+
+```python
 host = "localhost"
 user = "root"
 password = ""
 database = "bdi"
-Execute o arquivo main.py para iniciar o sistema de gerenciamento de vacinas após baixar o bdi.
+```
 
+3. Execute o arquivo `main.py` para iniciar o sistema de gerenciamento de vacinas após baixar o BDI (Banco de Dados de Imunização). 💻
 
-Funcionalidades
-Criar registro de vacina: Adicione informações sobre uma nova vacina, incluindo nome, fabricante, lote, tempo de imunidade, estoque e data de validade.
+## Funcionalidades 🧰
 
-Atualizar registro de vacina: Atualize as informações de uma vacina existente com base no ID.
+1. **Criar registro de vacina:** Adicione informações sobre uma nova vacina, incluindo nome, fabricante, lote, tempo de imunidade, estoque e data de validade. 📝
 
-Excluir registro de vacina: Remova um registro de vacina com base no ID.
+2. **Atualizar registro de vacina:** Atualize as informações de uma vacina existente com base no ID. 🔄
 
-Buscar por nome: Localize vacinas pelo nome.
+3. **Excluir registro de vacina:** Remova um registro de vacina com base no ID. ❌
 
-Buscar por fabricante: Encontre vacinas por fabricante.
+4. **Buscar por nome:** Localize vacinas pelo nome. 🔍
 
-Visualizar toda a tabela de vacinas: Exiba todos os registros de vacinas armazenados no banco de dados.
+5. **Buscar por fabricante:** Encontre vacinas por fabricante. 🔍
 
-Encontrar lotes de vacinas perto do vencimento: Identifique lotes de vacinas com estoque baixo.
+6. **Visualizar toda a tabela de vacinas:** Exiba todos os registros de vacinas armazenados no banco de dados. 📊
 
-Calcular a quantidade total de estoque de vacinas: Obtenha a quantidade total de vacinas em estoque.
+7. **Encontrar lotes de vacinas perto do vencimento:** Identifique lotes de vacinas com estoque baixo. ⚠️
 
-Encontrar as vacinas com data de vencimento em 30 dias: Localize vacinas com data de vencimento nos próximos 30 dias.
+8. **Calcular a quantidade total de estoque de vacinas:** Obtenha a quantidade total de vacinas em estoque. 📈
 
+9. **Encontrar as vacinas com data de vencimento em 30 dias:** Localize vacinas com data de vencimento nos próximos 30 dias. 📅
 
-Nota: Certifique-se de que as informações de conexão ao banco de dados, como senha, sejam tratadas com segurança e não incluídas em repositórios públicos. Considere o uso de variáveis de ambiente ou arquivos de configuração separados para armazenar essas informações com segurança.
+**Nota:** Certifique-se de que as informações de conexão ao banco de dados, como senha, sejam tratadas com segurança e não incluídas em repositórios públicos. Considere o uso de variáveis de ambiente ou arquivos de configuração separados para armazenar essas informações com segurança. 🔒
 
-
-
-
-
-
+---
